@@ -1,7 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TextInput, Button, Alert, FlatList, SafeAreaView, TouchableOpacity, Modal } from 'react-native';
-import { useState } from 'react';
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { useState } from 'react';
+import { Button, FlatList, Modal, SafeAreaView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { styles } from './App.style';
 
 const DATA = [
