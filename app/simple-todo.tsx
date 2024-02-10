@@ -1,7 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { useState } from 'react';
 import { Button, FlatList, Modal, SafeAreaView, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import { styles } from './App.style';
+import { styles } from '../styles/simple-todo';
 
 const DATA = [
   { id: '1', title: 'Coding', completed: false, color: '#EBC58C' },
@@ -9,15 +9,7 @@ const DATA = [
   { id: '3', title: 'Cycling', completed: false, color: '#EBC58C' }
 ]
 
-type TodoProps = {
-  item: {
-    id: string,
-    title: string,
-    completed: boolean
-  }
-}
-
-export default function App() {
+export default function SimpleTodo() {
   const [items, setItems] = useState(DATA)
   const [text, setText] = useState('')
   const [isModalVisible, setIsModalVisible] = useState(false)
@@ -85,3 +77,4 @@ export default function App() {
     </SafeAreaView>
   );
 }
+
