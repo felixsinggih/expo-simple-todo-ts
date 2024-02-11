@@ -1,7 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { useEffect, useState } from "react";
 import { Button, FlatList, Modal, Pressable, Text, TextInput, TouchableOpacity, View } from "react-native";
-import { employeeStyles } from '../styles/employees';
+import { employeeStyles } from '../../styles/employees';
 
 const apiUrl = 'http://192.168.100.13:3001'
 

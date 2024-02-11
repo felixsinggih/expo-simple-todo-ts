@@ -1,7 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { useState } from 'react';
 import { Button, FlatList, Modal, SafeAreaView, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import { styles } from '../styles/simple-todo';
+import { styles } from '../../styles/simple-todo';
 
 const DATA = [
   { id: '1', title: 'Coding', completed: false, color: '#EBC58C' },

@@ -18,7 +18,7 @@ export default function IndexPage() {
 
             <Link style={mainStyles.button} href='/simple-todo'>Go to Simple To Do</Link>
 
-            <Link style={mainStyles.button} href='/employees'>Go to Employee Page</Link>
+            <Link style={mainStyles.button} href='/employee'>Go to Employee Page</Link>
         </View>
     )
 }

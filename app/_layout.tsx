@@ -8,7 +8,7 @@ export default function RootLayout() {
         <Stack.Screen name="simple-todo" options={{
             title: 'Simple Todo'
         }} />
-        <Stack.Screen name="employees" options={{
+        <Stack.Screen name="employee" options={{
             title: 'Employees'
         }} />
     </Stack>
