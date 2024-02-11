@@ -17,6 +17,8 @@ export default function IndexPage() {
             </Pressable>
 
             <Link style={mainStyles.button} href='/simple-todo'>Go to Simple To Do</Link>
+
+            <Link style={mainStyles.button} href='/employees'>Go to Employee Page</Link>
         </View>
     )
 }
