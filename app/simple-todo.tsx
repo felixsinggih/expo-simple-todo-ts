@@ -9,7 +9,7 @@ const DATA = [
   { id: '3', title: 'Cycling', completed: false, color: '#EBC58C' }
 ]
 
-export default function SimpleTodo() {
+export default function SimpleTodoPage() {
   const [items, setItems] = useState(DATA)
   const [text, setText] = useState('')
   const [isModalVisible, setIsModalVisible] = useState(false)

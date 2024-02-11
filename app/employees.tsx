@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Button, FlatList, Modal, Pressable, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { employeeStyles } from '../styles/employees';
 
-const apiUrl = 'http://192.168.162.104:3001'
+const apiUrl = 'http://192.168.100.13:3001'
 
 type employee = {
     id: string,
@@ -28,6 +28,7 @@ export default function EmployeePage() {
             const response = await fetch(`${apiUrl}/employees/`);
             const data = await response.json();
             SetEmployee(data);
+            console.log(data)
         };
         fetchData();
     }, []);
